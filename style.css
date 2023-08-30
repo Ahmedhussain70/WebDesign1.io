@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li a.nav-link.active,
+li a.nav-link:hover {
+  border-bottom: solid 1px #000;
+}
+
+li a.nav-link {
+  color: #000 !important;
+}
+
+section.first-section button {
+  background-color: #ccadad;
+}
+section.first-section button:hover {
+  background-color: #e0c1c1;
+}
+
+/* section.second-section button {
+  background-color: #ccadad;
+  width: 100px;
+  height: 50px;
+  padding-top: 10px;
+}
+section.second-section button:hover {
+  background-color: #e0c1c1;
+} */
+
+.photo{
+  height: 98%;
+  width: 100%;
+}
+
+img{
+  cursor: pointer;
+}
+
+label{
+  padding-right: 85%;
+}
